@@ -11,10 +11,7 @@ body {
     color: #00FFFF;
     text-decoration: none;
   }
-  
-  a:hover {
-    color: #00CED1; 
-  }
+
   
   /* Navigation Bar */
   nav {
