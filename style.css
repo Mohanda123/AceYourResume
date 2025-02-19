@@ -121,13 +121,18 @@ body {
     gap: 20px;
     flex-wrap: wrap;
   }
+  img{
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px aqua;
+  }
+  img:hover{
+    box-shadow: 15px 15px 30px aqua;
+  }
   
   .gallery-item {
     background-color: #111;
     padding: 20px;
-    border-radius: 10px;
-    width: 200px;
-    height: 150px;
+    border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -202,8 +207,8 @@ body {
     cursor: pointer;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s;
-    font-size: 24px; /* Ensure icon is visible */
-    color: #000; /* Ensure icon is visible */
+    font-size: 24px; 
+    color: #000; 
 }
 
 /* Fix social links visibility */
@@ -217,12 +222,10 @@ body {
     padding: 10px;
 }
 
-/* Show social links when .show class is added */
+
 .social-links.show {
     display: block !important;
 }
-
-/* Ensure icons inside social links are visible */
 .social-links a {
     display: block;
     margin: 5px 0;
